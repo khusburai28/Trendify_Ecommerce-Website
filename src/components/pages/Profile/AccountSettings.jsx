@@ -1,4 +1,4 @@
-import { FormControl, FormLabel, Input, useDisclosure } from "@chakra-ui/react";
+import { useDisclosure } from "@chakra-ui/react";
 import React from "react";
 import { FiEdit2 } from "react-icons/fi";
 import ProfileEdit from "./ProfileEdit";
@@ -26,19 +26,19 @@ const AccountSettings = () => {
             <label htmlFor="name" className="text-gray-light text-sm">
               First Name
             </label>
-            <p>Himanshu</p>
+            <p>Khusbu</p>
           </div>
           <div className="input w-[48%]">
             <label htmlFor="name" className="text-gray-light text-sm">
               Last Name
             </label>
-            <p>Verma</p>
+            <p>Rai</p>
           </div>
           <div className="input w-[48%]">
             <label htmlFor="name" className="text-gray-light text-sm">
               Email
             </label>
-            <p>example@gmail.com</p>
+            <p>Khusburai72@gmail.com</p>
           </div>
           <div className="input w-[48%]">
             <label htmlFor="name" className="text-gray-light text-sm">

@@ -7,8 +7,8 @@ const MainprofileBanner = () => {
       <div className="wrapper">
         <Avatar size={'2xl'} name="Dan Abrahmov" src="https://bit.ly/dan-abramov" />
         <div className="info">
-          <p className="font-semibold text-xl">Himanshu verma</p>
-          <span className="text-sm text-gray">example@gmail.com</span>
+          <p className="font-semibold text-xl">Khusbu Rai</p>
+          <span className="text-sm text-gray">Khusburai72@gmail.com</span>
         </div>
       </div>
     </div>

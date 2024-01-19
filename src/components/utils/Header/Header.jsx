@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { AiOutlineSearch } from "react-icons/ai";
 import {
   Popover,
   PopoverArrow,
@@ -11,6 +8,9 @@ import {
   PopoverTrigger,
   useToast,
 } from "@chakra-ui/react";
+import React, { useState } from "react";
+import { AiOutlineSearch } from "react-icons/ai";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [inputValue, setInputValue] = useState("");
@@ -164,7 +164,7 @@ const Header = () => {
                 <PopoverArrow />
                 <PopoverCloseButton />
                 <PopoverHeader>
-                  <div className="font-semibold p-2">Himanshu verma</div>
+                  <div className="font-semibold p-2">Khusbu Rai</div>
                 </PopoverHeader>
                 <PopoverBody cursor={"pointer"}>
                   <div className="p-2">Logout</div>
